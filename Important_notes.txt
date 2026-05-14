@@ -1,0 +1,29 @@
+[]   → list    → ordered, changeable
+{}   → dict    → key:value pairs
+()   → tuple   → ordered, unchangeable
+{}   → set     → unique items only   ← same as dict but no key:value
+
+
+FUNCTION
+def calculate_area(width, height):
+    area = width * height
+    return area
+
+def             → keyword that says "I am defining a function"
+calculate_area  → the name you give it
+(width, height) → parameters — inputs the function needs
+area = ...      → the body — what the function does
+return area     → the output — what the function gives back
+
+Rule 1 → define once with def
+Rule 2 → call it anywhere with its name
+Rule 3 → parameters go in, return value comes out
+
+print inside function  =  chef eats the food himself
+                          nothing comes out of the kitchen
+
+return                 =  chef sends the food out to you
+                          YOU decide to eat it, share it, or save it
+
+                          print  →  shows output automatically, gives nothing back
+return →  gives value back silently, YOU decide what to do with it
